@@ -1,0 +1,60 @@
+<div class="container">
+    <h1><%= title %></h1>
+    <table> 
+        <tr>
+
+          <td>            
+            <form>
+            <fieldset>
+             <legend>My Information</legend>
+                <p>
+                 <lable for=txtname>First name: Shibo</lable>
+                </p>
+                <p>
+                 <lable for=txtname>Last name: Wang</lable>
+                </p>
+                <p>
+                 <lable for=txtname>Email: swang221@my.centennialcollege.ca</lable>
+                </p>
+                <p>
+                 <lable for=txtPhone>Phone: 4039260749</lable>
+                </p>
+            </fieldset>
+    
+             
+         </form></td>
+         
+                <td>
+            <form action="https://comp229-assignment1shibowang.herokuapp.com/" >
+            <fieldset>
+             <legend>Your Information</legend>
+                <p>
+                 <lable for=txtname>First name: </lable><input id="txtFName" name="txtFName" size="25" tabindex="1" type="text" require="required">
+                </p>
+                <p>
+                 <lable for=txtname>Last name: </lable><input id="txtLName" name="txtLName" size="25" tabindex="3" type="text" require="required">
+                </p>
+                <p>
+                 <lable for=txtname>Email: </lable><input id="txtLName" name="email" size="30" tabindex="5" type="email" require="required">
+                </p>
+                <p>
+                 <lable for=txtPhone>Phone: </lable><input id="txtPhone" name="Phone" size="29" tabindex="7" type="text" require="required">
+                </p>
+            </fieldset>
+    
+             <p>
+                 <label for="txtSpecialReq">Leave Me Message:</label>
+                 <textarea id="txtSpecialReq" size="17" name="txtSpecialReq" rows="5" tabindex="25">---Please let me know about anything about me you may interest ---</textarea>
+                 </p>
+             </fieldset>
+             <p>
+     
+                 <input name="btnSubmit" tabindex="37" type="submit" value="Complete Registration">
+     
+                 <input name="btnReset" tabindex="39" type="reset" value="Clear Form">
+             </p>
+         </form></td>
+         </tr>
+        
+    
+</div>
