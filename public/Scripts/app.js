@@ -1,4 +1,5 @@
 // IIFE -- Immediately Invoked Function Expression
+/*COMP229 ASSIGNMENT 2, Shibo Wang, 301200419, October 19, 2022*/
 (function () {
   function Start() {
     console.log("App Started...");
